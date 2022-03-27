@@ -1,4 +1,4 @@
-import { build, type Options } from 'tsup'
+import { type Options, build } from 'tsup'
 
 const entryPoints = ['src/index.ts']
 

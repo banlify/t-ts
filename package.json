@@ -40,7 +40,7 @@
   "scripts": {
     "dev": "esno ./scripts/build.ts dev",
     "build": "rimraf dist && esno ./scripts/build.ts",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "prepublishOnly": "nr build",
     "release": "bumpp --commit --push --tag && pnpm publish",
     "start": "esno src/index.ts",
